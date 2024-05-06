@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "version": "1.0",
   "name": "IsraReplyGPT",
-  "description": "Enhance your Twitter Israeli advocacy with automated, Boost your impact with strategic intelligent replies  ",
+  "description": "Enhance your Twitter Israeli advocacy with automated, Boost your impact with strategic intelligent replies",
   "icons": {
     "128": "src/images/IsraReplyGPT.png"
   },
@@ -39,14 +39,28 @@
     "scripting"
   ],
   "host_permissions": [
-    "https://twitter.com/*"
+    "https://twitter.com/*",
+    "https://mobile.twitter.com/*",
+    "https://x.com/*",
+    "https://www.facebook.com/*",
+    "https://www.linkedin.com/*",
+    "https://www.quora.com/*",
+    "https://www.instagram.com/*",
+    "https://www.reddit.com/*",
+    "https://www.tiktok.com/*"
   ],
   "content_scripts": [
     {
       "matches": [
         "https://twitter.com/*",
         "https://mobile.twitter.com/*",
-        "https://x.com/*"
+        "https://x.com/*",
+        "https://www.facebook.com/*",
+        "https://www.linkedin.com/*",
+        "https://www.quora.com/*",
+        "https://www.instagram.com/*",
+        "https://www.reddit.com/*",
+        "https://www.tiktok.com/*"
       ],
       "js": [
         "src/content-window-exit.js"
