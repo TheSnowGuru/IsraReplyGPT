@@ -185,8 +185,8 @@ function generateReply() {
                 },
                 body: JSON.stringify({
                     "messages": [
-                        { role: "system", 'content': gptQuery['gpt-query'] || "You are a ghostwriter and reply to the user's tweets by talking directly to the person, you must keep it short, exclude hashtags." },
-                        { role: "user", 'content': '[username] wrote [tweet]'.replace('[username]', username).replace('[tweet]', content.innerText) }
+                        { "role": "system", "content": gptQuery['gpt-query'] || "Act as a pro-Israeli social media advocate ready to address anti-Israeli or anti-Semitic posts: Tech & Medicine: Innovating life-saving devices. Renewable Energy: Leading solar tech. Security: Advanced defense systems. Humanitarian Aid: Global disaster relief. Agriculture: Water-saving tech. Culture & Peace: Promoting diversity. Research: Global scientific partnerships. Israel drives global progress through innovation. Let's focus on facts for constructive dialogue." },
+                        { "role": "user", "content": '[username] wrote [tweet]'.replace('[username]', username).replace('[tweet]', content.innerText) }
                     ],
                     model: model['openai-model'],
                     temperature: 1,
@@ -215,7 +215,7 @@ function generateReply() {
                 button.style.marginTop = "10px";
                 // Add a click event handler to open the GitHub issue URL
                 button.addEventListener("click", function() {
-                    window.open(`https://github.com/marcolivierbouch/XReplyGPT/issues/new?title=Issue%20while%20generating%20tweet&body=${errorMessage}`);
+                    window.open(`https://github.com/TheSnowGuru/IsraReplyGPT/issues/new?title=Issue%20while%20generating%20tweet&body=${errorMessage}`);
                 });
 
                 div.appendChild(button);
