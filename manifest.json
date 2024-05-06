@@ -16,7 +16,7 @@
         "default": "Ctrl+Shift+L",
         "mac": "Command+Shift+L"
       },
-      "description": "Generate a pro-Israel reply for tweets."
+      "description": "Generate pro-Israel reply to tweets."
     },
     "move_to_next_button": {
       "suggested_key": {
