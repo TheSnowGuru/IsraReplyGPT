@@ -8,6 +8,8 @@
   </a>
 </p>
 </p>
+![image](https://github.com/TheSnowGuru/IsraReplyGPT/assets/5313475/6fdef3bc-a479-4e55-987d-4776bb79aee7)
+
 
 ## Description
 The [IsraReplyGPT Chrome Extension](https://chrome.google.com/webstore/detail/israreplygpt/) is your go-to tool for actively combating anti-Israeli sentiments and anti-Semitic content on Twitter. Powered by cutting-edge AI, this extension helps craft informed and compelling responses to promote understanding and advocacy for Israel. Join us in making a difference with every tweet! 🇮🇱🌟
