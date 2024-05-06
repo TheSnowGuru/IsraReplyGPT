@@ -13,10 +13,7 @@
     <a href="https://www.google.com/chrome/">
         <img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white"/>
     </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-    </a>
-        <a href="https://twitter.com/search?q=%23FromtheRivertotheSeaPalestineWillbeFree&src=typeahead_click">
+        <a href="https://twitter.com/search?q=%23FromtheRivertotheSea&src=typeahead_click">
         <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white"/>
     </a>
 </p>

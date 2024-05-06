@@ -15,18 +15,12 @@
     <a href="https://www.google.com/chrome/">
         <img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white"/>
     </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-    </a>
-        <a href="https://twitter.com/search?q=%23FromtheRivertotheSeaPalestineWillbeFree&src=typeahead_click">
+        <a href="https://twitter.com/search?q=%23FromtheRivertotheSea&src=typeahead_click">
         <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white"/>
     </a>
 </p>
- <br>
-    <a href="https://github.com/TheSnowGuru/IsraReplyGPT/blob/main/README_HE.md">
-         HEWBREW VERSION
-    </a>
 
+    
 ![image](https://github.com/TheSnowGuru/IsraReplyGPT/assets/5313475/6fdef3bc-a479-4e55-987d-4776bb79aee7)
 ## תיאור
 תוסף כרום [IsraReplyGPT](https://chrome.google.com/webstore/detail/israreplygpt/eelgnnfbhkkpoegamlndebjcdaoiihhd) הוא הכלי שלך למאבק פעיל נגד תופעות אנטישמיות ותקיפות נגד ישראל בטוויטר. מופעל על ידי AI מתקדם, התוסף מסייע ביצירת תגובות מושכלות ושכנועות שמקדמות הבנה ותמיכה בישראל. הצטרף אלינו ליצירת שינוי בכל ציוץ! 🇮🇱🌟
