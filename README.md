@@ -33,10 +33,11 @@ The [IsraReplyGPT Chrome Extension](https://chrome.google.com/webstore/detail/is
 ## Demo
 Watch our extension in action, providing powerful advocacy with precision:
 
-![demo](./chrome_img/demo.gif)
+<div dir="rtl" style="text-align: right;">
+<img src="./chrome_img/demo.gif" alt="demo">
 
 ## Feedback and Support
-Encounter an issue or have suggestions? Please contact us through GitHub issues.
+Encounter an issue or have suggestions? Please contact us through GitHub issues or discord.
 
 ## Disclaimer
 IsraReplyGPT is a tool for advocacy and education. It is not affiliated with Twitter. Use it responsibly in compliance with Twitter's community guidelines.
