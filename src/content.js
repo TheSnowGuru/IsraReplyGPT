@@ -1,3 +1,10 @@
+// Listen for the command from the keyboard shortcut
+chrome.commands.onCommand.addListener(function(command) {
+  if (command === "generate_reply") {
+    generateReply();
+  }
+});
+
 // Function to check if loading spinner is present
 function isLoadingSpinnerPresent(container) {
   return container.querySelector('.loading-spinner') !== null;
