@@ -1,0 +1,60 @@
+{
+  "manifest_version": 3,
+  "version": "6.2",
+  "name": "IsraReplyGPT",
+  "description": "Enhance your Twitter advocacy with automated, intelligent replies that support Israeli causes. Boost your impact with strategic, informed responses.",
+  "icons": {
+    "128": "src/images/IsraReplyGPT.png"
+  },
+  "background": {
+    "service_worker": "src/service-worker.js",
+    "type": "module"
+  },
+  "commands": {
+    "generate_reply": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      },
+      "description": "Generate a pro-Israel reply for tweets."
+    },
+    "move_to_next_button": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "Move to the next generated pro-Israel reply on the homepage. Press ENTER to focus on the reply button for quick sending."
+    },
+    "move_to_previous_button": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Navigate to the previous pro-Israel reply."
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://twitter.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*",
+        "https://mobile.twitter.com/*",
+        "https://x.com/*"
+      ],
+      "js": [
+        "src/content-window-exit.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "src/index.html",
+    "default_icon": "src/images/IsraReplyGPTbg.png"
+  }
+}

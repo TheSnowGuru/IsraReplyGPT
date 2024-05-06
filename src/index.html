@@ -1,0 +1,203 @@
+<html>
+
+<head>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+  <script type="text/javascript" src="popup.js"></script>
+  <style>
+    html {
+      height: 200px;
+      width: 500px;
+    }
+
+    .header-2 a:hover svg {
+      stroke: #ff9a00;
+      animation: wiggle 0.5s infinite;
+    }
+
+    @keyframes wiggle {
+      0% {
+        transform: rotateZ(0deg);
+      }
+
+      25% {
+        transform: rotateZ(-5deg);
+      }
+
+      50% {
+        transform: rotateZ(5deg);
+      }
+
+      75% {
+        transform: rotateZ(-5deg);
+      }
+
+      100% {
+        transform: rotateZ(0deg);
+      }
+    }
+
+    #validate-button {
+      height: 38px; /* Adjust as needed */
+    }
+
+    @keyframes breathing {
+      0%, 100% {
+          transform: scale(1);
+      }
+      50% {
+          transform: scale(1.05);
+      }
+    }
+
+    /* Apply the breathing animation to the button */
+    #validate-button.invalid {
+        animation: breathing 1.5s infinite;
+    }
+
+    .shortcut {
+      border-radius: 4px;
+      padding: 4px 8px;
+      margin: 4px 0;
+    }
+    
+    .shortcut-key {
+      background-color: #888;
+      color: white;
+      border-radius: 3px;
+      padding: 0 4px;
+      margin-right: 4px;
+    }
+
+  </style>
+  <meta charset="UTF-8">
+  </meta>
+</head>
+
+<div class="header-2 mr-6">
+  <nav class="bg-white py-2 md:py-4">
+    <div class="container px-4 mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center">
+          <image height="70" width="70" src="./images/XReplyGPT.png"></image>
+          <a href="#" class="font-bold text-xl text-blue-700 ml-2">
+            XReplyGPT
+          </a>
+        </div>
+        <a href="https://chrome.google.com/webstore/detail/xreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk/reviews" target="_blank"
+          class="p-2 lg:px-4 md:mx-2 text-gray-800 rounded border-2 border-blue-400 hover:border-blue-600 flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+            </polygon>
+          </svg>
+          Leave a review
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="ml-6 mr-6 py-2 md:py-2">
+  <div class="mb-8 container px-4 mx-auto">
+    <h1 class="flex items-center text-xl font-extrabold dark:text-white">How it works? 👨‍🏫</h1>
+    <div class="relative flex items-center">
+      <div class="flex-grow border-t border-gray-400"></div>
+    </div>
+    <p class="text-gray-700">1. Create an OpenAI API key <a href="https://platform.openai.com/account/api-keys"
+        target="_blank" class="underline">here</a>. Make sure you have a paid account or it won't work.</p>
+    <p class="text-gray-700">2. Save it in the config section. </p>
+    <p class="text-gray-700">3. Open <a class="underline" href="https://x.com" target="_blank">https://x.com</a>.</p>
+    <p class="text-gray-700">4. Press the shortcut "Generate reply for tweets".</p>
+    <p class="text-gray-700">5. Click on the generated reply to send it.</p>
+  </div>
+
+  <div class="mb-6 container px-4 mx-auto">
+    <h1 class="flex items-center text-xl font-extrabold dark:text-white">Config ⚙️</h1>
+    <div class="mb-2 relative flex items-center">
+      <div class="flex-grow border-t border-gray-400"></div>
+    </div>
+    <div class="max-w-2xl mb-4 mx-auto">
+        <div class="flex items-center">
+          <input class="border-2 w-full h-10 pl-2 rounded" type="password" id="api-key"
+              placeholder="OpenAI platform API key">
+          <button id="validate-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 rounded ml-2">
+              Validate
+          </button>
+        </div>
+        <div class="flex items-center">
+          <input id="show-api-key" type="checkbox" value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+          <label for="show-api-key" class="ml-2 text-sm text-gray-700 dark:text-gray-300">Show API
+              key</label>
+        </div>
+    </div>
+
+    <div class="mb-4">
+      <p class="text-gray-700">OpenAI model:</p>
+      <select id="models-select" class="border-2 border-gray-300 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+      </select>
+    </div>
+
+    <p class="text-gray-700">ChatGPT query:</p>
+    <div class="max-w-2xl flex mx-auto">
+      <textarea id="gpt-query" class="p-2 mr-1 w-full rounded border-2 border-gray-300 focus:border-gray-500" rows="4"
+        cols="24"></textarea>
+    </div>
+  </div>
+
+  <div class="mr-6 py-2 md:py-2">
+    <div class="mb-8 container px-4 mx-auto">
+      <h1 class="flex items-center text-xl font-extrabold dark:text-white">Features ✨</h1>
+      <div class="relative flex items-center">
+        <div class="flex-grow border-t border-gray-400"></div>
+      </div>
+      <div class="mt-2 flex items-center">
+        <input id="window-close" checked type="checkbox" value=""
+          class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+        <label for="window-close" class="ml-2 text-sm text-gray-700 dark:text-gray-300">Automatic window close after
+          reply</lable>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-8 container px-4 mx-auto">
+  <div class="flex items-start justify-between mb-1"> <!-- Change items-center to items-start to align title to the left -->
+    <h1 class="text-xl font-extrabold dark:text-white">Shortcuts ⌨️</h1> <!-- Removed unnecessary flex class from the title -->
+    <button id="extension-shortcuts-button" class="py-2 bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 rounded ml-2">
+      Edit shortcuts
+    </button>
+  </div>
+
+    <div class="mb-2 relative flex items-center">
+      <div class="flex-grow border-t border-gray-400"></div>
+    </div>
+    <ul  id="shortcut-container" class="ml-4 list-disc">
+    </ul>
+  </div>
+
+  <div class="mb-4 container px-4 mx-auto">
+    <h1 class="flex items-center text-xl font-extrabold dark:text-white">ChatGPT query examples 💬</h1>
+    <div class="mb-2 relative flex items-center">
+      <div class="flex-grow border-t border-gray-400"></div>
+    </div>
+    <ul class="ml-4 list-disc">
+      <li>You are against everything, argue with every tweet.</li>
+      <li>You are a ghostwriter and reply to the user's tweets by talking directly to the person, you must keep it
+        short, exclude hashtags.</li>
+      <li>Reply to tweet, add value to what they are saying, add one typo and it must feel like a real person. Exclude hashtag.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="mt-4 ml-6 w-full pb-4 pr-10 text-sm text-left fade-in">
+  <a class="text-gray-500 no-underline hover:no-underline" href="#">&copy; XReplyGPT 2023</a>
+  <a class="text-gray-500 float-right px-4" target="_blank"
+    href="https://github.com/marcolivierbouch/XReplyGPT">Github</a>
+  <a class="text-gray-500 float-right" target="_blank" href="changelog.html">Changelog</a>
+  <a class="text-gray-500 float-right px-4" target="_blank" href="https://marcolivierbouch.github.io/XReplyGPT/">Website</a>
+  <a class="text-gray-500 float-right" target="_blank" href="https://chrome.google.com/webstore/detail/xreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk/support">Support</a>
+</div>
+
+</html>
