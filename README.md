@@ -13,9 +13,9 @@ The [IsraReplyGPT Chrome Extension](https://chrome.google.com/webstore/detail/is
 
 ## Links
 - Chrome store: https://chrome.google.com/webstore/detail/israreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk/
-- YouTube video: [Demo Video](https://www.youtube.com/watch?v=nJZ6UyEtyjU)
-- Website: https://marcolivierbouch.github.io/IsraReplyGPT/
-- Medium: [Learn more about our mission](https://medium.com/@marcolivierbouch/advocating-for-israel-in-the-digital-age-7b24ee073b58)
+- YouTube video: [Demo Video](https://linke.to/IsraReplyGPT)
+- Website: https://linke.to/IsraReplyGPT
+- Medium: [Learn more about our mission](https://linke.to/IsraReplyGPT)
 
 ## How it works?
 1. Obtain your OpenAI API key [here](https://platform.openai.com/account/api-keys) (requires a paid account).
@@ -41,4 +41,5 @@ IsraReplyGPT is a tool for advocacy and education. It is not affiliated with Twi
 Original software by XReplyGPT, adapted for advocacy by IsraReplyGPT team.
 
 ## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=marcolivierbouch/xreplygpt&type=Date)](https://star-history.com/#marcolivierbouch/xreplygpt&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=/TheSnowGuru/IsraReplyGPT&type=Date)](https://star-history.com/#/TheSnowGuru/IsraReplyGPT&Date)
+
