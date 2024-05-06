@@ -1,6 +1,6 @@
 <p align='center'>
-    <h1>IsraReplyGPT 🇮🇱 Chrome Extension: Advocacy in Action Against Anti-Semitism</h1>
-    <a href="https://github.com/marcolivierbouch/XReplyGPT/blob/main/LICENSE.txt">
+    <h1>IsraReplyGPT 🇮🇱<img alt="Israel Flag" height="20" width="auto" src="https://raw.githubusercontent.com/hampusborgos/country-flags/main/png/il.png"> Chrome Extension: Advocacy in Action Against Anti-Semitism</h1>
+    <a href="https://github.com/TheSnowGuru/IsraReplyGPT/blob/main/LICENSE">
         <img alt="GitHub" src="https://img.shields.io/github/license/marcolivierbouch/XReplyGPT">
     </a>
      <a href="https://discord.gg/HXduBWpd3U">
@@ -19,6 +19,7 @@ The [IsraReplyGPT Chrome Extension](https://chrome.google.com/webstore/detail/is
 - YouTube video: [Demo Video](https://linke.to/IsraReplyGPT)
 - Website: https://linke.to/IsraReplyGPT
 - Medium: [Learn more about our mission](https://linke.to/IsraReplyGPT)
+- Privacy Policy - [Read here](https://docs.google.com/document/d/1-0j2NJLGu-5LMA-4PSNVRjfiqBzUq0nLjFJbuPoCUHA/edit?usp=sharing)
 
 ## How it works?
 1. Obtain your OpenAI API key [here](https://platform.openai.com/account/api-keys) (requires a paid account).
