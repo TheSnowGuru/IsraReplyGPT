@@ -3,13 +3,14 @@
     <a href="https://github.com/marcolivierbouch/XReplyGPT/blob/main/LICENSE.txt">
         <img alt="GitHub" src="https://img.shields.io/github/license/marcolivierbouch/XReplyGPT">
     </a>
-    <a href="https://chrome.google.com/webstore/detail/israreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk">
-        <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/ajjgpcaiofpdenhkmabcadabajmimpdk">
-    </a>
+     <a href="https://discord.gg/HXduBWpd3U">
+    <img src="https://img.shields.io/badge/Join-Discord-blue.svg"/>
+  </a>
+</p>
 </p>
 
 ## Description
-The [IsraReplyGPT Chrome Extension](https://chrome.google.com/webstore/detail/israreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk/) is your go-to tool for actively combating anti-Israeli sentiments and anti-Semitic content on Twitter. Powered by cutting-edge AI, this extension helps craft informed and compelling responses to promote understanding and advocacy for Israel. Join us in making a difference with every tweet! 🇮🇱🌟
+The [IsraReplyGPT Chrome Extension](https://chrome.google.com/webstore/detail/israreplygpt/) is your go-to tool for actively combating anti-Israeli sentiments and anti-Semitic content on Twitter. Powered by cutting-edge AI, this extension helps craft informed and compelling responses to promote understanding and advocacy for Israel. Join us in making a difference with every tweet! 🇮🇱🌟
 
 ## Links
 - Chrome store: https://chrome.google.com/webstore/detail/israreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk/
