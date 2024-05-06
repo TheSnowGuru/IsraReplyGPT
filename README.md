@@ -1,15 +1,12 @@
 <p align='center'>
     <h1>IsraReplyGPT 📢 Chrome Extension: Advocacy in Action Against Anti-Semitism</h1>
     <a href="https://github.com/TheSnowGuru/IsraReplyGPT/blob/main/LICENSE">
-        <img alt="GitHub" src="https://img.shields.io/github/license/marcolivierbouch/XReplyGPT">
+        <img alt="GitHub" src="https://github.com/TheSnowGuru/IsraReplyGPT/">
     </a>
     <a href="https://discord.gg/HXduBWpd3U">
            <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"/>
     </a>
-    <a href="https://github.com/TheSnowGuru/IsraReplyGPT/blob/main/README_HE.md">
-         HEWBREW VERSION
-    </a>
-    <br>
+      <br>
     <a href="https://platform.openai.com/account/api-key">
         <img src="https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white"/>
     </a>
@@ -19,7 +16,7 @@
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
         <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
     </a>
-        <a href="https://x.company">
+        <a href="https://twitter.com/search?q=%23FromtheRivertotheSeaPalestineWillbeFree&src=typeahead_click">
         <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white"/>
     </a>
 </p>

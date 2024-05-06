@@ -8,9 +8,6 @@
     <a href="https://discord.gg/HXduBWpd3U">
            <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"/>
     </a>
-    <a href="https://github.com/TheSnowGuru/IsraReplyGPT/blob/main/README_HE.md">
-         HEWBREW VERSION
-    </a>
     <br>
     <a href="https://platform.openai.com/account/api-key">
         <img src="https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white"/>
@@ -25,6 +22,10 @@
         <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white"/>
     </a>
 </p>
+ <br>
+    <a href="https://github.com/TheSnowGuru/IsraReplyGPT/blob/main/README_HE.md">
+         HEWBREW VERSION
+    </a>
 
 ![image](https://github.com/TheSnowGuru/IsraReplyGPT/assets/5313475/6fdef3bc-a479-4e55-987d-4776bb79aee7)
 ## תיאור
