@@ -1,5 +1,5 @@
 <p align='center'>
-    <h1>IsraReplyGPT 🇮🇱 Chrome Extension: Advocacy in Action Against Anti-Semitism</h1>
+    <h1>IsraReplyGPT 🇮🇱<img alt="Israel Flag" height="20" width="auto" src="https://raw.githubusercontent.com/hampusborgos/country-flags/main/png/il.png"> Chrome Extension: Advocacy in Action Against Anti-Semitism</h1>
     <a href="https://github.com/marcolivierbouch/XReplyGPT/blob/main/LICENSE.txt">
         <img alt="GitHub" src="https://img.shields.io/github/license/marcolivierbouch/XReplyGPT">
     </a>
@@ -9,7 +9,7 @@
 </p>
 
 ## Description
-The [IsraReplyGPT Chrome Extension](https://chrome.google.com/webstore/detail/israreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk/) is your go-to tool for actively combating anti-Israeli sentiments and anti-Semitic content on Twitter. Powered by cutting-edge AI, this extension helps craft informed and compelling responses to promote understanding and advocacy for Israel. Join us in making a difference with every tweet! 🌟🇮🇱
+The [IsraReplyGPT Chrome Extension](https://chrome.google.com/webstore/detail/israreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk/) is your go-to tool for actively combating anti-Israeli sentiments and anti-Semitic content on Twitter. Powered by cutting-edge AI, this extension helps craft informed and compelling responses to promote understanding and advocacy for Israel. Join us in making a difference with every tweet! 🇮🇱🌟
 
 ## Links
 - Chrome store: https://chrome.google.com/webstore/detail/israreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk/
