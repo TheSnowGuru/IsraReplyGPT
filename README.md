@@ -41,8 +41,6 @@ Encounter an issue or have suggestions? Please contact us through GitHub issues.
 IsraReplyGPT is a tool for advocacy and education. It is not affiliated with Twitter. Use it responsibly in compliance with Twitter's community guidelines.
 
 ## Credit
-Original software by XReplyGPT, adapted for advocacy by IsraReplyGPT team.
+Original software by [XReplyGPT](xreplygpt.com), adapted for advocacy by IsraReplyGPT team.
 
-## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=/TheSnowGuru/IsraReplyGPT&type=Date)](https://star-history.com/#/TheSnowGuru/IsraReplyGPT&Date)
 
