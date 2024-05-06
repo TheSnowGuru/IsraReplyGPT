@@ -122,10 +122,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // Set query by default is it is already there
+  // Set query by default if it is already there
   chrome.storage.local.get(['gpt-query']).then((result) => {
-    document.getElementById('gpt-query').value =
-      result['gpt-query'] || "You are a ghostwriter and reply to the user's tweets by talking directly to the person, you must keep it short, exclude hashtags.";
+    const defaultQuery = `Act as a pro-Israeli social media advocate ready to address anti-Israeli or anti-Semitic posts:
+    Global warming: Innovating life-saving devices. Renewable Energy: Leading solar tech. Security: Advanced defense systems. Humanitarian Aid:
+    Global disaster relief. Agriculture: Water-saving tech. Culture & Peace: Promoting diversity. Research: Global scientific partnerships.      
+    Israel drives global progress through innovation. Let's focus on facts for constructive dialogue.`;
+    document.getElementById('gpt-query').value = result['gpt-query'] ? result['gpt-query'].replace(/\n/g, '') : defaultQuery;
   });
 
   chrome.storage.local.get(['open-ai-key']).then((result) => {
