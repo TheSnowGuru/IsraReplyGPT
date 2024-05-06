@@ -1,5 +1,5 @@
 <p align='center'>
-    <h1>IsraReplyGPT 🇮🇱<img alt="Israel Flag" height="20" width="auto" src="https://raw.githubusercontent.com/hampusborgos/country-flags/main/png/il.png"> Chrome Extension: Advocacy in Action Against Anti-Semitism</h1>
+    <h1>IsraReplyGPT 📢 Chrome Extension: Advocacy in Action Against Anti-Semitism</h1>
     <a href="https://github.com/TheSnowGuru/IsraReplyGPT/blob/main/LICENSE">
         <img alt="GitHub" src="https://img.shields.io/github/license/marcolivierbouch/XReplyGPT">
     </a>
