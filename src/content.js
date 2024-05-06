@@ -185,7 +185,7 @@ function generateReply() {
                 },
                 body: JSON.stringify({
                     "messages": [
-                        { "role": "system", "content": gptQuery['gpt-query'] || "Act as a pro-Israeli social media advocate ready to address anti-Israeli or anti-Semitic posts: Tech & Medicine: Innovating life-saving devices. Renewable Energy: Leading solar tech. Security: Advanced defense systems. Humanitarian Aid: Global disaster relief. Agriculture: Water-saving tech. Culture & Peace: Promoting diversity. Research: Global scientific partnerships. Israel drives global progress through innovation. Let's focus on facts for constructive dialogue." },
+                        { "role": "system", "content": gptQuery['gpt-query'] || "Act as a pro-Israeli social media advocate ready to address anti-Israeli or anti-Semitic posts:    Global warming: Innovating life-saving devices. Renewable Energy: Leading solar tech. Security: Advanced defense systems. Humanitarian Aid:    Global disaster relief. Agriculture: Water-saving tech. Culture & Peace: Promoting diversity. Research: Global scientific partnerships. Israel drives global progress through innovation. If someone is aggressively reply in a very cynical way. up to 280 characters no hashtags." },
                         { "role": "user", "content": '[username] wrote [tweet]'.replace('[username]', username).replace('[tweet]', content.innerText) }
                     ],
                     model: model['openai-model'],

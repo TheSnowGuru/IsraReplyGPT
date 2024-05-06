@@ -124,10 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Set query by default if it is already there
   chrome.storage.local.get(['gpt-query']).then((result) => {
-    const defaultQuery = `Act as a pro-Israeli social media advocate ready to address anti-Israeli or anti-Semitic posts:
-    Global warming: Innovating life-saving devices. Renewable Energy: Leading solar tech. Security: Advanced defense systems. Humanitarian Aid:
-    Global disaster relief. Agriculture: Water-saving tech. Culture & Peace: Promoting diversity. Research: Global scientific partnerships.      
-    Israel drives global progress through innovation. Let's focus on facts for constructive dialogue.`;
+    const defaultQuery = `Act as a pro-Israeli social media advocate ready to address anti-Israeli or anti-Semitic posts:    Global warming: Innovating life-saving devices. Renewable Energy: Leading solar tech. Security: Advanced defense systems. Humanitarian Aid:    Global disaster relief. Agriculture: Water-saving tech. Culture & Peace: Promoting diversity. Research: Global scientific partnerships. Israel drives global progress through innovation. If someone is aggressively reply in a very cynical way. up to 280 characters no hashtags.`;
     document.getElementById('gpt-query').value = result['gpt-query'] ? result['gpt-query'].replace(/\n/g, '') : defaultQuery;
   });
 
