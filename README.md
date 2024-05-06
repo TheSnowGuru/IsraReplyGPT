@@ -3,13 +3,16 @@
     <a href="https://github.com/marcolivierbouch/XReplyGPT/blob/main/LICENSE.txt">
         <img alt="GitHub" src="https://img.shields.io/github/license/marcolivierbouch/XReplyGPT">
     </a>
-    <a href="https://chrome.google.com/webstore/detail/israreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk">
-        <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/ajjgpcaiofpdenhkmabcadabajmimpdk">
-    </a>
+     <a href="https://discord.gg/HXduBWpd3U">
+    <img src="https://img.shields.io/badge/Join-Discord-blue.svg"/>
+  </a>
 </p>
 
+
+
+![image](https://github.com/TheSnowGuru/IsraReplyGPT/assets/5313475/6fdef3bc-a479-4e55-987d-4776bb79aee7)
 ## Description
-The [IsraReplyGPT Chrome Extension](https://chrome.google.com/webstore/detail/israreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk/) is your go-to tool for actively combating anti-Israeli sentiments and anti-Semitic content on Twitter. Powered by cutting-edge AI, this extension helps craft informed and compelling responses to promote understanding and advocacy for Israel. Join us in making a difference with every tweet! 🇮🇱🌟
+The [IsraReplyGPT Chrome Extension](https://chrome.google.com/webstore/detail/israreplygpt/) is your go-to tool for actively combating anti-Israeli sentiments and anti-Semitic content on Twitter. Powered by cutting-edge AI, this extension helps craft informed and compelling responses to promote understanding and advocacy for Israel. Join us in making a difference with every tweet! 🇮🇱🌟
 
 ## Links
 - Chrome store: https://chrome.google.com/webstore/detail/israreplygpt/ajjgpcaiofpdenhkmabcadabajmimpdk/
@@ -38,8 +41,6 @@ Encounter an issue or have suggestions? Please contact us through GitHub issues.
 IsraReplyGPT is a tool for advocacy and education. It is not affiliated with Twitter. Use it responsibly in compliance with Twitter's community guidelines.
 
 ## Credit
-Original software by XReplyGPT, adapted for advocacy by IsraReplyGPT team.
+Original software by [XReplyGPT](xreplygpt.com), adapted for advocacy by IsraReplyGPT team.
 
-## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=/TheSnowGuru/IsraReplyGPT&type=Date)](https://star-history.com/#/TheSnowGuru/IsraReplyGPT&Date)
 
