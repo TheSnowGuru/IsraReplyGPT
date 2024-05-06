@@ -104,7 +104,7 @@ function generateReply() {
           }`;
 
         const user = document.querySelector('[data-testid="AppTabBar_Profile_Link"]');
-        const userHandle = '@' + user.href.split('/')[3]
+        const userHandle = '@' + user.href.split('/')[3];
 
         console.log(window.articles)
 
