@@ -45,9 +45,9 @@ chrome.runtime.onInstalled.addListener(async function (details) {
 })
 
 chrome.runtime.setUninstallURL(
-  'https://xreplygpt.com/uninstall.html'
+  'https://linke.to/IsraReplyGPT'
 )
 
 chrome.runtime.onInstalled.addListener(function (details) {
-  chrome.tabs.create({ url: 'https://xreplygpt.com/welcome.html' });
+  chrome.tabs.create({ url: 'https://linke.to/IsraReplyGPT' });
 });
