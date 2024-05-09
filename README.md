@@ -32,14 +32,16 @@ The [IsraReplyGPT Chrome Extension](https://chrome.google.com/webstore/detail/is
 - More Links: [Learn more about our mission](https://linke.to/IsraReplyGPT)
 - Privacy Policy - [Read here](https://docs.google.com/document/d/1-0j2NJLGu-5LMA-4PSNVRjfiqBzUq0nLjFJbuPoCUHA/edit?usp=sharing)
 
-## How it works?
+## How to set the API key?
 1. Obtain your OpenAI API key [here](https://platform.openai.com/account/api-keys) (requires a paid account).
 2. Enter your API key in the config section.
 3. Navigate to https://x.com.
 4. Use the shortcut CTRL+SHIFT+L.
 5. Click on the generated reply to send it.
-
 ![api_key](./chrome_img/generate_api_key.gif)
+
+## How to use inside twitter?
+![image](./src/images/Isra-Reply-how-to.gif)
 
 ## Demo
 Watch our extension in action, providing powerful advocacy with precision:
